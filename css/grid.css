@@ -1,0 +1,22 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cell {
+  box-sizing: border-box;
+}
+
+@media (min-width: 800px) {
+  /* half width cell */
+  .cell {
+    flex: 0 0 50%;
+  }
+}
+
+@media (max-width: 800px) {
+  /* full width cell */
+  .cell {
+    flex: 0 0 100%;
+  }
+}
