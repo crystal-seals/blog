@@ -1,54 +1,65 @@
 body {
 	margin: 0;
+    background-color: #FFFFF0;
+}
+
+p{
+    font-family: "futura-pt";
 }
 
 .heading {
 	font-size: 40px;
-	padding-left: 5%;
+    font-family: "brandon-grotesque";
+    text-align: left;
+}
+.biopiccontainer{
+    padding-bottom: 40px;
 }
 
-.main-bio {	
+.aboutcontainer{
+    clear:left;
+    text-align: left;
+}
+
+.main-bio {
+    padding-top: 5%;
 	padding-left: 5%;
 	padding-right: 5%;
 	font-size: 20px;
 	word-spacing: 5px;
 }
-.bio-pic img {
-	padding-top: 5%;
-	width: 100%;
+
+.divider {
+    display: block;
+    border-bottom: 1px solid black;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-sizing: border-box;
+}
+
+.bio-pic{
+    width: 40%;
+    float: right;
+    padding-left: 5%;
+}
+
+.team-name h3 {
 	padding-left: 5%;
-	padding-right: 5%;
-	padding-bottom: 10%;
-
+	font-size: 30px;
+    font-family: "brandon-grotesque";
 }
-
-.bio-pic {
-	width: 90%;	
+.team{
+    margin: 0px;
 }
-
-hr.style-one {
-    border: 0;
-    height: 1px;
-    background: #333;
-    background-image: linear-gradient(to right, #ccc, #333, #ccc);
-}
-
-.team-name p {
-	padding-left: 5%;
-	font-size: 50px;
-}
-
 .team h3 {
 	font-size: 30px;
 	padding-left: 5%;
-	padding-top: 5%
-}	
+    font-family: "brandon-grotesque";
+    margin: 0px;
+}
 
 .team-p {
 	font-size: 20px;
 	padding-left: 5%;
 	word-spacing: 5%;
 }
-
-
-
