@@ -25,17 +25,34 @@ body {
 }
 
 .questionHolder {
-  display: flex;
-  flex-wrap: wrap;
+  width: 100%;
 }
 
 .question {
-  font-size: 15px;
   font-weight: bold;
-  width: 400px;3
 }
 
 .answer {
+  text-align: right;
+}
+
+.qanda {
   font-size: 15px;
-  width: 100px;
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  /* full width cell */
+  .qanda {
+    width: 100%;
+  }
+}
+
+#links {
+  background-color: blue;
+  width: 60%;
+  margin-left: 20%;
+  text-align: center;
 }
