@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+}
+
+#profilePic {
+  width: 100%;
+  height: auto;
+}
+
+#profilePicHolder {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  box-sizing: border-box;
+}
+
+#nameHolder {
+  width: 100%;
+}
+
+#name {
+  text-align: center;
+  font-size: 30px;
+}
+
+.questionHolder {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.question {
+  font-size: 15px;
+  font-weight: bold;
+  width: 400px;3
+}
+
+.answer {
+  font-size: 15px;
+  width: 100px;
+}
