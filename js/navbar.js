@@ -1,10 +1,10 @@
 var isItClicked = true;
 
 function removeHighlight(){
-	var menuItems = document.querySelectorAll('.navbarcontainer div');
+	var menuItems = document.querySelectorAll('.navbar_container div');
 	for (var i = 0; i < 3; i++) {
 		//menuItems[i].style.backgroundColor = '#FFFFF0';
-		menuItems[i].className = 'button';
+		menuItems[i].className = 'navbar_button';
 	}
 }
 
@@ -12,17 +12,17 @@ function firstFunc(event) {
 	removeHighlight();
 	// event.target
 	//document.getElementById('profile').style.backgroundColor = "#611C35";
-	document.getElementById('profile').className = 'button highlighted';
+	document.getElementById('profile').className = '.navbar_button';
 }
 
 function secondFunc() {
 	removeHighlight();
-	document.getElementById('about').className = 'button highlighted';
+	document.getElementById('about').className = '.navbar_button';
 }
 
 function thirdFunc() {
 	removeHighlight();
-	document.getElementById('projects').className = 'button highlighted';
+	document.getElementById('projects').className = '.navbar_button';
 }
 
 // var menu = document.querySelectorAll(...);
