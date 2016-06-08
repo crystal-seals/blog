@@ -12,17 +12,17 @@ function firstFunc(event) {
 	removeHighlight();
 	// event.target
 	//document.getElementById('profile').style.backgroundColor = "#611C35";
-	document.getElementById('profile').className = '.navbar_button';
+	document.getElementById('profile').className = 'navbar_button highlighted';
 }
 
 function secondFunc() {
 	removeHighlight();
-	document.getElementById('about').className = '.navbar_button';
+	document.getElementById('about').className = 'navbar_button highlighted';
 }
 
 function thirdFunc() {
 	removeHighlight();
-	document.getElementById('projects').className = '.navbar_button';
+	document.getElementById('projects').className = 'navbar_button highlighted';
 }
 
 // var menu = document.querySelectorAll(...);
