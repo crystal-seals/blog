@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  background-color: #f1f2f4;
+}
+
+p {
+  margin: 0;
+}
+
+#profilePic {
+  width: 100%;
+  height: auto;
+}
+
+#profilePicHolder {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  box-sizing: border-box;
+}
+
+#nameHolder {
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#name {
+  text-align: center;
+  font-size: 70px;
+  font-family: "brandon-grotesque";
+}
+
+#borderTop {
+  border-top: 3px;
+  border-top: 3px solid;
+  border-color: #611C35;
+}
+
+.questionHolder {
+  width: 90%;
+  height: 75px;
+  border-bottom: 3px solid;
+  border-color: #611C35;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.icon {
+  width: 30px;
+  height: auto;
+  vertical-align: middle;
+}
+
+.question {
+  font-weight: 700;
+  text-indent: 8%;
+}
+
+.answer {
+  text-align: left;
+  text-indent: 15%
+}
+
+.qanda {
+  font-size: 15px;
+  float: left;
+  width: 50%;
+  height: 75px;
+  line-height: 75px;
+  font-family: "futura-pt", sans-serif;
+}
+
+#main {
+  margin: 10% 5% 10% 5%;
+  font-family: "futura-pt", sans-serif;
+}
+
+#summary {
+  margin: 10% 5% 10% 5%;
+  font-family: "futura-pt", sans-serif;;
+}
+
+@media (max-width: 500px) {
+  /* full width cell */
+  .qanda {
+    width: 100%;
+    height: 37.5px;
+    line-height: 37.5px;
+    text-indent: 22.5%;
+  }
+
+  #name {
+    font-size: 40px;
+  }
+
+  .icon {
+    width: 20px;
+    text-indent: 22.5%;
+  }
+}
+
+#links {
+  background-color: #ffcccc;
+  width: 60%;
+  margin-left: 20%;
+  text-align: center;
+  font-family: "futura-pt", sans-serif;
+  color: #611C35;
+}
+
+@media (min-width: 1000px) {
+  #summary {
+    width: 20%;
+  }
+  .questionHolder {
+    width: 20%;
+  }
+}
