@@ -12,6 +12,7 @@ body {
   flex-wrap: wrap;
 }
 
+
 @media (min-width: 800px) {
   /* half width cell */
   .cell {
@@ -42,15 +43,16 @@ body {
 
 #header_logo {
   width: 14vw;
-  margin-bottom: -0.5em;
 }
 
 #header_title {
   color: black;
+  font-weight: 900;
   font-family: "brandon-grotesque", sans-serif;;
   text-transform: uppercase;
   font-size: 3.5vw;
-  line-height: 0em;
+  height: 100px;
+  line-height: 100px;
 }
 
 /* Navbar */
@@ -77,18 +79,29 @@ body {
     -webkit-transition:.5s;
     transition: .5s;
 }
-
 .navbar_button:last-child {
   margin-top: 15px;
 }
-
 .navbar_button:hover {
     color: #F1F2F4;
     background-color: #611C35;
-
- }
-
+}
 .highlighted {
   background-color: #611C35;
   color: #F1F2F4;
+}
+
+/* Team Photos */
+.mainpage_grid {
+  text-align: center;
+  font-family: "brandon-grotesque", sans-serif;
+}
+.mainpage_images_container {
+  padding: 1em 8em;
+}
+
+@media (max-width: 950px) {
+  .mainpage_images_container {
+    padding: 1em 4em;
+  }
 }
