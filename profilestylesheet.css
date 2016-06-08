@@ -110,7 +110,7 @@ p {
   color: #611C35;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 900px) {
   #summary {
     width: 25%;
     display: inline-block;
