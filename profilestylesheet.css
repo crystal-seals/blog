@@ -2,6 +2,10 @@ body {
   margin: 0;
 }
 
+p {
+  margin: 0;
+}
+
 #profilePic {
   width: 100%;
   height: auto;
@@ -17,25 +21,57 @@ body {
 
 #nameHolder {
   width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 #name {
   text-align: center;
-  font-size: 30px;
+  font-size: 50px;
+}
+
+#borderTop {
+  border-top: 3px;
+  border-top: 3px solid;
+  border-color: #611C35;
 }
 
 .questionHolder {
-  display: flex;
-  flex-wrap: wrap;
+  width: 100%;
+  height: 75px;
+  border-bottom: 3px solid;
+  border-color: #611C35;
 }
 
 .question {
-  font-size: 15px;
   font-weight: bold;
-  width: 400px;3
 }
 
 .answer {
+  text-align: right;
+}
+
+.qanda {
   font-size: 15px;
-  width: 100px;
+  float: left;
+  width: 50%;
+  height: 75px;
+  text-align: center;
+  line-height: 75px;
+}
+
+@media (max-width: 500px) {
+  /* full width cell */
+  .qanda {
+    width: 100%;
+    height: 37.5px;
+    line-height: 37.5px;
+  }
+}
+
+#links {
+  background-color: #ffcccc;
+  width: 60%;
+  margin-left: 20%;
+  text-align: center;
 }
