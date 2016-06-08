@@ -1,0 +1,31 @@
+.navbarcontainer{
+    background-color: #FFFFF0;
+    text-align: center;
+
+}
+.button {
+    font-family: sans-serif;
+    letter-spacing: 0.2em;
+    display: inline-block;
+    text-align: left;
+    padding: 10px 20px;
+    border: 1px solid #611C35;
+    border-radius: 3px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #611C35;
+    transition: background-color 0.5s ease;
+}
+.button {
+  color: #611C35;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+}
+.button:hover {
+    color: #FFFFF0;
+    background-color: #611C35;
+
+ }
