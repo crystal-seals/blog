@@ -17,14 +17,14 @@ body {
   width: 100%;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 900px) {
   /* half width cell */
   .cell {
     flex: 0 0 50%;
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   /* full width cell */
   .cell {
     flex: 0 0 100%;
