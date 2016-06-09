@@ -17,34 +17,34 @@
     </div>
 
     <div class="navbar_container">
-        <div id="profile" class="navbar_button" onclick="firstFunc()">team</div>
-        <div id="about" class="navbar_button" onclick="secondFunc()">projects</div>
-        <div id="projects" class="navbar_button" onclick="thirdFunc()">pandas</div>
+        <div id="profile" class="navbar_button" onclick="nav_select('profile')">team</div>
+        <div id="about" class="navbar_button" onclick="nav_select('about')">projects</div>
+        <div id="projects" class="navbar_button" onclick="nav_select('projects')">pandas</div>
     </div>
 
-    <div class="mainpage_grid">
+    <div class="mainpage_grid" id="mainpage_team">
       <p class="mainpage_grid_title">Team</p>
       <div class="mainpage_images_container grid">
           <div class="cell">
-            <a href="">
+            <a href="profileHeather.html">
               <img class="team_image" src="imgs/beyonce.jpeg">
               <p>Heather Davidson</p>
             </a>
           </div>
           <div class="cell">
-            <a href="">
+            <a href="profileTroy.html">
               <img class="team_image" src="imgs/beyonce.jpeg">
               <p>Troy Maeder</p>
             </a>
           </div>
           <div class="cell">
-            <a href="">
+            <a href="profileSofia.html">
               <img class="team_image" src="imgs/beyonce.jpeg">
               <p>Sofia Pohjalainen</p>
             </a>
           </div>
           <div class="cell">
-            <a href="">
+            <a href="profileRichard.html">
               <img class="team_image" src="imgs/beyonce.jpeg">
               <p>Richard Warren</p>
             </a>
@@ -52,7 +52,7 @@
       </div>
     </div>
 
-    <div class="mainpage_grid">
+    <div class="mainpage_grid" id="mainpage_projects">
       <p class="mainpage_grid_title">Projects</p>
       <div class="mainpage_images_container grid">
           <div class="cell">
@@ -64,7 +64,7 @@
       </div>
     </div>
 
-    <div class="mainpage_grid">
+    <div class="mainpage_grid" id="mainpage_pandas">
       <p class="mainpage_grid_title">Pandas</p>
       <div class="mainpage_images_container grid">
           <div class="cell">
