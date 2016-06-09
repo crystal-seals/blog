@@ -17,35 +17,35 @@
     </div>
 
     <div class="navbar_container">
-        <div id="profile" class="navbar_button" onclick="nav_select('profile')">team</div>
-        <div id="about" class="navbar_button" onclick="nav_select('about')">projects</div>
-        <div id="projects" class="navbar_button" onclick="nav_select('projects')">pandas</div>
+        <div id="profile" class="navbar_button" onclick="firstFunc()">team</div>
+        <div id="about" class="navbar_button" onclick="secondFunc()">projects</div>
+        <div id="projects" class="navbar_button" onclick="thirdFunc()">pandas</div>
     </div>
 
     <div class="mainpage_grid">
-      <p>Team</p>
+      <p class="mainpage_grid_title">Team</p>
       <div class="mainpage_images_container grid">
           <div class="cell">
             <a href="">
-              <img src="imgs/beyonce.jpeg">
+              <img class="team_image" src="imgs/beyonce.jpeg">
               <p>Heather Davidson</p>
             </a>
           </div>
           <div class="cell">
             <a href="">
-              <img src="imgs/beyonce.jpeg">
+              <img class="team_image" src="imgs/beyonce.jpeg">
               <p>Troy Maeder</p>
             </a>
           </div>
           <div class="cell">
             <a href="">
-              <img src="imgs/beyonce.jpeg">
+              <img class="team_image" src="imgs/beyonce.jpeg">
               <p>Sofia Pohjalainen</p>
             </a>
           </div>
           <div class="cell">
             <a href="">
-              <img src="imgs/beyonce.jpeg">
+              <img class="team_image" src="imgs/beyonce.jpeg">
               <p>Richard Warren</p>
             </a>
           </div>
@@ -53,7 +53,7 @@
     </div>
 
     <div class="mainpage_grid">
-      <p>Projects</p>
+      <p class="mainpage_grid_title">Projects</p>
       <div class="mainpage_images_container grid">
           <div class="cell">
             <a href="">
@@ -62,6 +62,26 @@
             </a>
           </div>
       </div>
+    </div>
+
+    <div class="mainpage_grid">
+      <p class="mainpage_grid_title">Pandas</p>
+      <div class="mainpage_images_container grid">
+          <div class="cell">
+            <a href="">
+              <img src="imgs/beyonce-horizontal.jpeg">
+              <p>Blog</p>
+            </a>
+          </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      &copy;
+      <script type="text/javascript">
+          document.write(new Date().getFullYear());
+      </script>
+      Crystal Seals
     </div>
 
     <script src="js/navbar.js"></script>

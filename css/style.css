@@ -92,17 +92,38 @@ body {
   color: #F1F2F4;
 }
 
-/* Team Photos */
+/* Team Images */
+.team_image:hover {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+/* Main Page Grids */
 .mainpage_grid {
   text-align: center;
   font-family: "brandon-grotesque", sans-serif;
+  border-bottom: 0.2em solid black;
+  width: 85%;
+  margin: auto auto;
+
 }
 .mainpage_images_container {
   padding: 1em 8em;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1140px) {
   .mainpage_images_container {
     padding: 1em 4em;
   }
+}
+
+.mainpage_grid_title {
+  font-size: 3em;
+  line-height: 0;
+}
+
+/* Footer */
+#footer {
+  text-align: center;
+  font-family: "futura-pt";
+  padding: 0.5em;
 }
