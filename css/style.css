@@ -137,20 +137,24 @@ body {
   .mainpage_images_container {
     padding: 4em;
   }
-}
-#panda1{
-    width: auto;
-    height: 400px;
-}
-}
+
 .mainpage_grid_title {
   font-size: 3em;
   line-height: 0;
 }
+.team_image{
+    border-radius: 5px;
+}
 
 /* Footer */
 #footer {
-  text-align: center;
-  font-family: "futura-pt";
-  padding: 0.5em;
+
+
+    font-family: "futura-pt";
+    padding: 0.5em;
+}
+#footer p {
+    text-align: center;
+    float: left;
+    width: 50%;
 }
