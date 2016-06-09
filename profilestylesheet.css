@@ -51,11 +51,12 @@ p {
   width: 30px;
   height: auto;
   vertical-align: middle;
+  margin-right: 10%;
 }
 
 .question {
   font-weight: 700;
-  text-indent: 8%;
+  text-indent: 2%;
 }
 
 .answer {
@@ -88,7 +89,10 @@ p {
     width: 100%;
     height: 37.5px;
     line-height: 37.5px;
-    text-indent: 22.5%;
+  }
+
+  .answer {
+    text-indent: 28%;
   }
 
   #name {
@@ -98,6 +102,7 @@ p {
   .icon {
     width: 20px;
     text-indent: 22.5%;
+    margin-right: 15%;
   }
 }
 
