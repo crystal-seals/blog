@@ -86,7 +86,7 @@ a{
     width: 60%;
     border-radius: 50%;
     margin-bottom: 5%;
-    text-align: center;
+    margin-left: 5%;
 }
 
 #summary {
@@ -158,8 +158,6 @@ a{
     border-bottom: 3px solid;
     border-top: 3px solid;
     border-color: #611C35;
-    text-align: center;
-  }
 }
 
 
