@@ -109,6 +109,7 @@ body {
   filter: grayscale(100%);
 }
 /* Main Page Grids */
+
 .mainpage_grid {
   text-align: center;
   font-family: "brandon-grotesque", sans-serif;
@@ -116,18 +117,23 @@ body {
   width: 85%;
   margin: auto auto;
 }
+
+.noBorder {
+  border: 0;
+}
+
 .mainpage_grid a{
     text-decoration: none;
     color: #611C35;
     font-size: 1em;
 }
 .mainpage_images_container {
-  padding: 1em 8em;
+  padding: 1em 5em;
 }
 
 @media (max-width: 1140px) {
   .mainpage_images_container {
-    padding: 1em 4em;
+    padding: 4em;
   }
 }
 #panda1{

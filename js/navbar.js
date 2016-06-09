@@ -15,6 +15,11 @@ function nav_select(btn_name) {
 	//document.getElementById('profile').style.backgroundColor = "#611C35";
 	var id = btn_name;
 	document.getElementById(id).className = 'navbar_button highlighted';
+	var grid = document.getElementsByClassName("mainpage_grid"); //.className = "noBorder"
+	for (var i = 0; i < grid.length; i++) {
+		grid[i].className = "mainpage_grid noBorder";
+	}
+
 	if (id === "profile") {
 		document.getElementById('mainpage_team').style.visibility = "visible";
 		document.getElementById('mainpage_projects').style.visibility = "hidden";
