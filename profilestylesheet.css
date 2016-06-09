@@ -83,6 +83,16 @@ p {
   font-family: "futura-pt", sans-serif;;
 }
 
+#links {
+  background-color: #ffcccc;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 10%;
+  text-align: center;
+  font-family: "futura-pt", sans-serif;
+  color: #611C35;
+}
+
 @media (max-width: 500px) {
   /* full width cell */
   .qanda {
@@ -104,15 +114,6 @@ p {
     text-indent: 22.5%;
     margin-right: 15%;
   }
-}
-
-#links {
-  background-color: #ffcccc;
-  width: 60%;
-  margin-left: 20%;
-  text-align: center;
-  font-family: "futura-pt", sans-serif;
-  color: #611C35;
 }
 
 @media (min-width: 900px) {
@@ -148,3 +149,23 @@ p {
     border-color: #611C35;
   }
 }
+
+
+  #hr-breaks {
+    padding-bottom: 5%;
+  }
+
+  #hr-breaks hr {
+    width: 70%;
+    border-color: #611C35;
+    height: 6px;
+    background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+  }
+
+  #mid-break hr {
+    width: 80%;
+    height: 6px;
+    background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+  }
