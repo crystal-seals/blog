@@ -2,14 +2,28 @@
 
 <html lang="en">
 <head>
-  <title>Profile: Richard Warren</title>
+  <title>Richard Warren</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://use.typekit.net/fym6alx.js"></script>
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
   <link rel="stylesheet" href="profilestylesheet.css?v=1.0">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
+  <div id="header">
+    <div id= "header_container">
+      <img id="header_logo" src="imgs/logo.svg" alt="">
+      <span id="header_title">Crystal Seals</span>
+    </div>
+  </div>
+
+  <div class="navbar_container">
+      <div id="profile" class="navbar_button" onclick="nav_select('profile')">team</div>
+      <div id="about" class="navbar_button" onclick="nav_select('about')">projects</div>
+      <div id="projects" class="navbar_button" onclick="nav_select('projects')">pandas</div>
+  </div>
+
   <div id="profilePicHolder">
     <img src="http://placekitten.com/1500/1000" alt="Richard Warren" id="profilePic">
   </div>
@@ -51,5 +65,13 @@
   <div id="main">
     <p>Why don’t we start from the very beginning. Tell me about your early years and where you come from. I’m from Colorado. I grew up in Colorado Springs. My mom is a doctor and a single mom. How do I describe my upbringing? Colorado Springs is famous for like “Focus on the Family” and super conservative Christians. But I wasn’t exposed to any of that, I just had my mom, her medical practice, and all her doctor friends. The problem with this question is that I got poisoned as a child, so I don’t remember anything from before probably thirteen. I have forgotten most of my life actually, I found out recently my husband and I had a wedding that I don’t remember. There are pictures and everything. Holy shit. So my whole childhood is basically gone. My mom remembers, you can ask her if you want [laugh]. The primary answer to that question is I don’t know, because it’s gone, all that stuff is just gone. I know I have two brothers and a sister, but I don’t have a lot of anecdotal things from childhood, or even more recently, because it’s just not in my brain anymore. My memory, if you can call it that, is stored entirely in a combination of other people and various kinds of recordings.</p>
   </div>
+  <div id="hr-breaks">
+    <hr size="6">
+      <div id="mid-break">
+      <hr size="8">
+    </div>
+    <hr size="6">
+  </div>
+      <script src="js/navbar.js"></script>
 </body>
 </html>

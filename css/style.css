@@ -3,6 +3,8 @@
 body {
   background-color: #F1F2F4;
   box-sizing: border-box;
+  color: #611C35;
+  border-color: #611C35;
 }
 
 /* Grid */
@@ -33,26 +35,35 @@ body {
   width: 100vw;
   text-align: center;
   margin-bottom: 2rem;
+  display: inline-block;
 }
 
 #header_container {
-  border-bottom: 0.2em solid black;
+  border-bottom: 0.2em solid #611C35;
   width: 60vw;
   margin: auto auto;
+  padding-bottom: 20px
+
 }
 
 #header_logo {
   width: 14vw;
+  vertical-align: middle;
 }
 
 #header_title {
-  color: black;
+  color: #611C35;
   font-weight: 900;
-  font-family: "brandon-grotesque", sans-serif;;
+  font-family: "brandon-grotesque", sans-serif;
+  text-align: right;
   text-transform: uppercase;
   font-size: 3.5vw;
   height: 100px;
   line-height: 100px;
+  width: 30%;
+  height: 10%;
+  padding-left: 10px;
+
 }
 
 /* Navbar */
@@ -101,10 +112,14 @@ body {
 .mainpage_grid {
   text-align: center;
   font-family: "brandon-grotesque", sans-serif;
-  border-bottom: 0.2em solid black;
+  border-bottom: 0.2em solid #611C35;
   width: 85%;
   margin: auto auto;
-
+}
+.mainpage_grid a{
+    text-decoration: none;
+    color: #611C35;
+    font-size: 1em;
 }
 .mainpage_images_container {
   padding: 1em 8em;
@@ -115,7 +130,11 @@ body {
     padding: 1em 4em;
   }
 }
-
+#panda1{
+    width: auto;
+    height: 400px;
+}
+}
 .mainpage_grid_title {
   font-size: 3em;
   line-height: 0;
