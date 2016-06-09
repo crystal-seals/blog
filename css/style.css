@@ -3,6 +3,8 @@
 body {
   background-color: #F1F2F4;
   box-sizing: border-box;
+  color: #611C35;
+  border-color: #611C35;
 }
 
 /* Grid */
@@ -37,7 +39,7 @@ body {
 }
 
 #header_container {
-  border-bottom: 0.2em solid black;
+  border-bottom: 0.2em solid #611C35;
   width: 60vw;
   margin: auto auto;
   padding-bottom: 20px
@@ -50,7 +52,7 @@ body {
 }
 
 #header_title {
-  color: black;
+  color: #611C35;
   font-weight: 900;
   font-family: "brandon-grotesque", sans-serif;
   text-align: right;
@@ -110,13 +112,13 @@ body {
 .mainpage_grid {
   text-align: center;
   font-family: "brandon-grotesque", sans-serif;
-  border-bottom: 0.2em solid black;
+  border-bottom: 0.2em solid #611C35;
   width: 85%;
   margin: auto auto;
 }
 .mainpage_grid a{
     text-decoration: none;
-    color: black;
+    color: #611C35;
     font-size: 1em;
 }
 .mainpage_images_container {

@@ -7,9 +7,23 @@
   <script src="https://use.typekit.net/fym6alx.js"></script>
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
   <link rel="stylesheet" href="profilestylesheet.css?v=1.0">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
+  <div id="header">
+    <div id= "header_container">
+      <img id="header_logo" src="imgs/logo.svg" alt="">
+      <span id="header_title">Crystal Seals</span>
+    </div>
+  </div>
+
+  <div class="navbar_container">
+      <div id="profile" class="navbar_button" onclick="nav_select('profile')">team</div>
+      <div id="about" class="navbar_button" onclick="nav_select('about')">projects</div>
+      <div id="projects" class="navbar_button" onclick="nav_select('projects')">pandas</div>
+  </div>
+
   <div id="profilePicHolder">
     <img src="http://placekitten.com/1500/1000" alt="Richard Warren" id="profilePic">
   </div>
@@ -58,5 +72,6 @@
     </div>
     <hr size="6">
   </div>
+      <script src="js/navbar.js"></script>
 </body>
 </html>
