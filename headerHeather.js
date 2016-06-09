@@ -10,8 +10,8 @@ function removeHighlight(){
 function nav_select(btn_name) {
 	removeHighlight();
 	document.getElementById(btn_name).className = 'navbar_button highlighted';
-	// document.getElementById('mainpage_team').style.visibility = "hidden";
-	// document.getElementById('mainpage_projects').style.visibility = "hidden";
-	// document.getElementById('mainpage_pandas').style.visibility = "hidden";
+	document.getElementById('mainpage_team').style.visibility = "hidden";
+	document.getElementById('mainpage_projects').style.visibility = "hidden";
+	document.getElementById('mainpage_pandas').style.visibility = "hidden";
 
 }

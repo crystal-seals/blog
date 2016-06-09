@@ -2,7 +2,7 @@ var isItClicked = true;
 
 function removeHighlight(){
 	var menuItems = document.querySelectorAll('.navbarcontainer div');
-	for (var i = 0; i < 3; i++) {
+	for (var i = 0; i < menuItems.length; i++) {
 		//menuItems[i].style.backgroundColor = '#FFFFF0';
 		menuItems[i].className = 'button';
 	}
