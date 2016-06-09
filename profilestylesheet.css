@@ -6,6 +6,10 @@ body {
 p {
   margin: 0;
 }
+a{
+    text-decoration: none;
+    color: #611C35;
+}
 
 #profilePic {
   width: 100%;
@@ -76,6 +80,13 @@ p {
 #main {
   margin: 10% 5% 10% 5%;
   font-family: "futura-pt", sans-serif;
+}
+#summaryIn img{
+    height: 70%;
+    width: 60%;
+    border-radius: 50%;
+    margin-bottom: 5%;
+    text-align: center;
 }
 
 #summary {
@@ -153,6 +164,7 @@ p {
 
   #hr-breaks {
     padding-bottom: 5%;
+    padding-top: 20px;
   }
 
   #hr-breaks hr {
