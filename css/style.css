@@ -111,6 +111,10 @@ body {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
+.team_image {
+    border-radius: 5px;
+}
+
 /* Main Page Grids */
 
 .mainpage_grid {
@@ -142,20 +146,4 @@ body {
 .mainpage_grid_title {
   font-size: 3em;
   line-height: 0;
-}
-.team_image{
-    border-radius: 5px;
-}
-
-/* Footer */
-#footer {
-
-
-    font-family: "futura-pt";
-    padding: 0.5em;
-}
-#footer p {
-    text-align: center;
-    float: left;
-    width: 50%;
 }
