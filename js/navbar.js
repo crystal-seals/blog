@@ -7,6 +7,7 @@ function removeHighlight(){
 	}
 }
 
+
 function nav_select(btnName) {
 	removeHighlight();
 	document.getElementById(btnName).className = 'navbar_button highlighted';
@@ -27,5 +28,10 @@ function nav_select(btnName) {
 	} else {
 		document.getElementById('mainpage_pandas').style.display = "block";
 	}
+	console.log(btnName)
 
 }
+
+document.getElementById("profile").addEventListener("click", function () { nav_select("profile") });
+document.getElementById("about").addEventListener("click", function () { nav_select("about") });
+document.getElementById("projects").addEventListener("click", function () { nav_select("projects") });
