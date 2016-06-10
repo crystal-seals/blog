@@ -23,9 +23,9 @@ function nav_select(btnName) {
 	if (btnName === "profile") {
 		document.getElementById('mainpage_team').style.display = "block";
 	} else if (btnName === "projects") {
-		document.getElementById('mainpage_pandas').style.display = "block";
-	} else {
 		document.getElementById('mainpage_projects').style.display = "block";
+	} else {
+		document.getElementById('mainpage_pandas').style.display = "block";
 	}
 
 }
